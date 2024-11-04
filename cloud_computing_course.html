@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cloud Computing</title>
+    <link rel="icon" href="Images/favicon.png" type="image/png">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #D2B48C;
+            color: #4B2C20;
+        }
+
+        header {
+            background-color: #8B4513;
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        h2 {
+            color: #8B4513;
+        }
+
+        p {
+            color: #4B2C20;
+        }
+
+        .section {
+            background-color: #F5DEB3;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: brown;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        footer :hover {
+          color: whitesmoke;
+        }
+        .code {
+            background-color: #FFF8DC;
+            border-left: 4px solid #8B4513;
+            padding: 10px;
+            margin: 10px 0;
+            font-family: monospace;
+        }
+
+        a {
+            color: #8B4513;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Cloud Computing</h1>
+        <p>Padhai - eLearning Website</p>
+    </header>
+
+    <div class="container">
+
+        <!-- Introduction to Cloud Computing Section -->
+        <div class="section">
+            <h2>What is Cloud Computing?</h2>
+            <p>Cloud computing is the delivery of computing services such as storage, databases, networking, software, and more over the internet, allowing for flexible resources and innovation.</p>
+            <div class="code">
+                // Cloud Computing Example - Deploying a web app<br>
+                import boto3<br>
+                <br>
+                client = boto3.client('s3')<br>
+                response = client.upload_file('myfile.html', 'mybucket', 'myfile.html')<br>
+                print("File successfully uploaded to S3 bucket!")
+            </div>
+        </div>
+
+        <!-- Cloud Service Models Section -->
+        <div class="section">
+            <h2>Cloud Service Models</h2>
+            <p>Cloud services are broadly categorized into three models:</p>
+            <ul>
+                <li><b>IaaS (Infrastructure as a Service):</b> Provides virtualized computing resources over the internet.</li>
+                <li><b>PaaS (Platform as a Service):</b> Offers platforms for developers to build and deploy applications.</li>
+                <li><b>SaaS (Software as a Service):</b> Delivers software applications over the web, usually on a subscription basis.</li>
+            </ul>
+        </div>
+
+        <!-- Cloud Deployment Models Section -->
+        <div class="section">
+            <h2>Cloud Deployment Models</h2>
+            <p>There are different deployment models in cloud computing:</p>
+            <ul>
+                <li><b>Public Cloud:</b> Services are delivered over the internet to multiple customers.</li>
+                <li><b>Private Cloud:</b> Resources are used exclusively by a single organization, providing more control over security and data.</li>
+                <li><b>Hybrid Cloud:</b> Combines both public and private cloud models, allowing data and applications to be shared between them.</li>
+            </ul>
+        </div>
+
+        <!-- Additional Resources Section -->
+        <div class="section">
+            <h2>Additional Resources</h2>
+            <p>Explore these resources to further your understanding of cloud computing:</p>
+            <ul>
+                <li><a href="https://aws.amazon.com/what-is-cloud-computing/" target="_blank">AWS - What is Cloud Computing?</a></li>
+                <li><a href="https://azure.microsoft.com/en-us/overview/what-is-cloud-computing/" target="_blank">Microsoft Azure - Introduction to Cloud Computing</a></li>
+                <li><a href="https://cloud.google.com/learn/what-is-cloud-computing" target="_blank">Google Cloud - Cloud Computing Explained</a></li>
+            </ul>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>&copy; Copyright ©2024 All rights reserved | This website is made by
+            Vipin Choudhary</p>
+    </footer>
+
+</body>
+</html>

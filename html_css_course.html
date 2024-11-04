@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML & CSS</title>
+    <link rel="icon" href="Images/favicon.png" type="image/png">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #D2B48C; 
+            color: #4B2C20
+        }
+
+        header {
+            background-color: #8B4513;
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        h2 {
+            color: #8B4513; 
+        }
+
+        p {
+            color: #4B2C20; 
+        }
+
+        .section {
+            background-color: #F5DEB3; 
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: brown;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        footer :hover {
+          color: whitesmoke;
+        }
+
+        .code {
+            background-color: #FFF8DC; 
+            border-left: 4px solid #8B4513; 
+            padding: 10px;
+            margin: 10px 0;
+            font-family: monospace;
+        }
+
+        a {
+            color: #8B4513; 
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>HTML & CSS</h1>
+        <p>Padhai - eLearning Website</p>
+    </header>
+
+    <div class="container">
+
+        <!-- HTML Basics Section -->
+        <div class="section">
+            <h2>HTML Basics</h2>
+            <p>HTML (HyperText Markup Language) is the standard markup language for creating web pages. It structures the content on your website with elements like paragraphs, headings, links, and more.</p>
+            <div class="code">
+                &lt;h1&gt;This is a Heading&lt;/h1&gt;<br>
+                &lt;p&gt;This is a paragraph&lt;/p&gt;
+            </div>
+        </div>
+
+        <!-- CSS Basics Section -->
+        <div class="section">
+            <h2>CSS Basics</h2>
+            <p>CSS (Cascading Style Sheets) is used to control the presentation of your web page. It allows you to add colors, layout, fonts, and spacing.</p>
+            <div class="code">
+                body {<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;background-color: lightblue;<br>
+                }<br>
+                h1 {<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;color: navy;<br>
+                }
+            </div>
+        </div>
+
+        <!-- HTML Example Section -->
+        <div class="section">
+            <h2>HTML Example</h2>
+            <p>Below is a simple example of an HTML page:</p>
+            <div class="code">
+                &lt;!DOCTYPE html&gt;<br>
+                &lt;html&gt;<br>
+                &nbsp;&nbsp;&lt;head&gt;<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&lt;title&gt;My Webpage&lt;/title&gt;<br>
+                &nbsp;&nbsp;&lt;/head&gt;<br>
+                &nbsp;&nbsp;&lt;body&gt;<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&lt;h1&gt;Welcome to my website&lt;/h1&gt;<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;This is a paragraph&lt;/p&gt;<br>
+                &nbsp;&nbsp;&lt;/body&gt;<br>
+                &lt;/html&gt;
+            </div>
+        </div>
+
+        <!-- CSS Example Section -->
+        <div class="section">
+            <h2>CSS Example</h2>
+            <p>Here’s an example of how to style your HTML with CSS:</p>
+            <div class="code">
+                body {<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;font-family: Arial, sans-serif;<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;background-color: #f0f0f0;<br>
+                }<br>
+                h1 {<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;color: #4CAF50;<br>
+                }
+            </div>
+        </div>
+
+        <!-- Additional Resources Section -->
+        <div class="section">
+            <h2>Additional Resources</h2>
+            <p>Explore these resources to further your understanding of HTML and CSS:</p>
+            <ul>
+                <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">HTML Documentation</a></li>
+                <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">CSS Documentation</a></li>
+                <li><a href="https://www.w3schools.com/html/" target="_blank">HTML Tutorials - W3Schools</a></li>
+                <li><a href="https://www.w3schools.com/css/" target="_blank">CSS Tutorials - W3Schools</a></li>
+            </ul>
+        </div>
+
+    </div>
+
+    <footer>
+      <p>&copy; Copyright ©2024 All rights reserved | This website is made by
+         Vipin Choudhary</p>
+  </footer>
+
+</body>
+</html>
